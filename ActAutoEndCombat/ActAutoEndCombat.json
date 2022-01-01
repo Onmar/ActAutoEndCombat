@@ -1,0 +1,18 @@
+{
+  "Author": "Onmar",
+  "Name": "ACT Auto End Combat",
+  "Punchline": "Tired of ACT resetting in fights with a cutscene? Or not resetting when you wipe? Let this plugin do it for you!",
+  "Description": "ACT can not automatically detect when combat ends in the game. This plugin automatically echos \"end\" in order to end the current ACT encounter whenever you leave combat.\nYou can specify filters for the zones in which this is active. You can use \"/aae check\" to see if the plugin is active in your zone.\nIt is recommended to increase the combat timeout in ACT (Options -> Main Table/Encounter -> General) and potentially also turn off the command sound (Options -> Sound Settings).\n",
+  "Tags": [
+    "utility",
+    "act"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "InternalName": "ActAutoEndCombat",
+  "AssemblyVersion": "0.2.0.0",
+  "RepoUrl": "https://github.com/youruser/yourrepo",
+  "ApplicableVersion": "any",
+  "DalamudApiLevel": 5
+}
