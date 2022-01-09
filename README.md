@@ -1,3 +1,14 @@
+## Edit:
+
+So it turns out that this feature is already built into the OverlayPlugin for ACT. (Not the main FFXIV plugin tough)
+You can find it via "Plugin" -> "OverlayPlugin.dll" -> "Event Settings" -> "End ACT encounter after wipe" & "End ACT encounter out of combat"
+(You don't need any active overlays for this)
+
+I was not aware of this when I made the Dalamud plugin, but I've since tried it out and it work exactly like I want it to.
+It also doesn't clutter the chat log with a bunch of "end" chat messages.
+
+Unless you specifically want the zone filter I would recommend using those options instead.
+
 # ACT Auto End Combat
 
 This is a Plugin for Dalamud (XivLauncher), which echos "end" whenever you leave combat.
